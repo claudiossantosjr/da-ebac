@@ -29,6 +29,6 @@ list_final.to_csv("./gasolina_DF.csv", index=False)
 with sns.axes_style('whitegrid'):
 
   grafico = sns.lineplot(data=list_final, x="dia", y="venda", palette="pastel")
-  grafico.set(title='Passageiros por ano', xlabel='Dia', ylabel='Preço');
+  grafico.set(title='Grafico passageiros por ano', xlabel='Dias', ylabel='Preços');
 
 grafico.figure.savefig('gasolina.png')
